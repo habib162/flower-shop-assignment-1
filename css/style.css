@@ -169,17 +169,32 @@ main {
     border-radius: 8px;
     align-items: center;
 }
-.latest-deal .section-title{
-    padding: 122px 533px 279px;
+.latest-deal h1{
+    padding: 122px 533px 10px;
+    font-size: 30px;
+    font-weight: 800;
 }
-.message{
-    display: flex;
-    justify-content: space-between;
+.latest-deal p{
+    padding: 0px 604px 0px;
+    font-size: 16px;
+    font-weight: 400;
 }
-.latest-deal .section-title input{
-    /* width: 700px; */
+
+.latest-deal input{
+    width: 600px;
     height: 50px;
     border: none;
     border-radius: 5px;
-    align-items: center;
+    margin: 40px 15px 121px 287px;
+}
+.latest-deal button{
+    margin-right: 200px;
+}
+
+footer{
+    background-color: #111010;
+    color: white;
+    text-align: center;
+    padding-top: 128px;
+    padding-bottom: 128px;
 }
