@@ -7,7 +7,6 @@
 
 .banner {
     background-color: rgba(229, 84, 115, 0.10);
-    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
     height: 850px;
@@ -84,30 +83,36 @@ main {
     height: 538px;
 
 }
-.pink-flower-tree-1{
+
+.pink-flower-tree-1 {
     background-color: rgba(167, 33, 98, 0.15);
     margin-left: 240px;
 }
-.pink-flower-tree-1 img{
-    margin:110px 76px 0px 78px;
+
+.pink-flower-tree-1 img {
+    margin: 110px 76px 0px 78px;
 }
 
-.pink-flower-tree-2{
+.pink-flower-tree-2 {
     background-color: rgba(5, 151, 160, 0.15);
     margin-left: 24px;
 }
-.pink-flower-tree-2 img{
+
+.pink-flower-tree-2 img {
     margin: 117px 47px 51px;
 }
-.pink-flower-tree-3{
+
+.pink-flower-tree-3 {
     background-color: rgba(71, 125, 17, 0.15);
     margin-left: 24px;
     margin-right: 240px;
 }
-.pink-flower-tree-3 img{
+
+.pink-flower-tree-3 img {
     margin: 67px 75px 0px;
 }
-.ractangle-flower h3{
+
+.ractangle-flower h3 {
     text-align: center;
     margin-top: 32px;
     text-decoration: underline;
@@ -116,51 +121,77 @@ main {
 
 /* HOT DEAL */
 
-.hot-deal-container{
+.hot-deal-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
     background-color: rgba(229, 84, 115, 0.05);
 }
-.hot-deal-description h1{
+
+.hot-deal-description h1 {
     font-size: 30px;
     font-weight: 800;
     margin-top: 230px;
     text-align: center;
-    /* margin-left: 423px; */
 }
-.hot-deal-description p{
+
+.hot-deal-description p {
     font-size: 18px;
     font-weight: 400;
     margin-top: 24px;
     line-height: 30px;
     text-align: center;
-    /* margin-left: 395px; */
 }
-.hot-deal-description .btn-primary{
-    
+
+.hot-deal-description .btn-primary {
+
     align-items: end;
     margin-top: 35px;
     margin-left: 230px;
 }
-.hot-deal-image{
+
+.hot-deal-image {
     margin-top: 100px;
     margin-bottom: 100px;
-    /* margin-right: 429px; */
 }
-.off-color{
-    color:#E55473;
+
+.off-color {
+    color: #E55473;
 }
 
 /* card style */
-.social-card{
+.social-card {
     display: flex;
     justify-content: space-evenly;
-    margin: 0px 240px;
+}
+
+.flower-card-1 {
+    margin-left: 240px;
+    margin-right: 24px;
+    width: 342px;
+    height: 396px;
+}
+
+.flower-card-2 {
+    width: 342px;
+    height: 396px;
+}
+
+.flower-card-3 {
+    margin-left: 24px;
+    width: 342px;
+    height: 396px;
+}
+
+.flower-card-4 {
+    margin-right: 240px;
+    margin-left: 24px;
+    width: 342px;
+    height: 396px;
 }
 
 /* latest deal */
-.latest-deal{
+.latest-deal {
     background-image: url("../images/Rectangle_9.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,32 +200,126 @@ main {
     border-radius: 8px;
     align-items: center;
 }
-.latest-deal h1{
+
+.latest-deal h1 {
     padding: 122px 533px 10px;
     font-size: 30px;
     font-weight: 800;
 }
-.latest-deal p{
+
+.latest-deal p {
     padding: 0px 604px 0px;
     font-size: 16px;
     font-weight: 400;
 }
 
-.latest-deal input{
+.latest-deal input {
     width: 600px;
-    height: 50px;
+    height: 55px;
     border: none;
     border-radius: 5px;
-    margin: 40px 15px 121px 287px;
+    margin: 40px 15px 121px 290px;
+    padding-left: 30px;
 }
-.latest-deal button{
+
+.latest-deal button {
     margin-right: 200px;
 }
 
-footer{
+footer {
     background-color: #111010;
     color: white;
     text-align: center;
     padding-top: 128px;
     padding-bottom: 128px;
+}
+
+footer p {
+    margin-top: 24px;
+    margin-bottom: 32px;
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+/* Review style */
+
+.review-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.all-review {
+    display: flex;
+}
+
+.review-1 {
+    width: 342px;
+    height: 396px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 240px;
+}
+
+.review-2 {
+    width: 342px;
+    height: 396px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 24px;
+}
+
+.review-3 {
+    width: 342px;
+    height: 396px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    margin-left: 24px;
+}
+
+.review-4 {
+    width: 342px;
+    height: 396px;
+    box-shadow: 0px 6px 50px 0px rgba(18, 3, 3, 0.06);
+    margin-right: 240px;
+    margin-left: 24px;
+}
+
+.star {
+    display: flex;
+    color: #E55473;
+    font-size: 30px;
+    padding-left: 31%;
+}
+
+.all-review img {
+    display: block;
+    margin: 5px auto;
+}
+
+.review-title-comment {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.review-description {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 15px;
+    line-height: 30px;
+}
+
+/* delivery boy */
+
+.delivery-container {
+    background-color: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1440px;
+    height: 320px;
+    align-items: center;
+}
+
+.delivery-man>p {
+    margin-top: 20px;
 }
